@@ -15,9 +15,9 @@ def on_closins():
     hm.HookMouse()
     hm.HookKeyboard()
 
-    maib()
+    main()
 
-def maib():
+def main():
     root = t.Tk()
     yo = t.Button(root, text="Yo", justify="center", command=lambda: on_closins())
     yo.pack()
@@ -25,4 +25,4 @@ def maib():
     root.mainloop()
 
 if __name__ == "__main__":
-    maib()
+    main()
