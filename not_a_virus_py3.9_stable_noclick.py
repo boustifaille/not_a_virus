@@ -1,3 +1,4 @@
+# copyright boustifaille
 import ctypes
 import os
 import random
